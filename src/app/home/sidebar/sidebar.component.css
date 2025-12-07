@@ -1,0 +1,18 @@
+nav .nav-link {
+  display: block;        
+  width: 100%;           
+  color: #000;
+  font-weight: 500;
+  padding: 8px 12px;     
+}
+
+nav .nav-link.active-menu {
+  color: #000;
+}
+
+nav .nav-link:hover,
+nav .nav-link:focus {
+  background-color: #f8f9fa;
+  color: #000;
+  border-radius: 8px;
+}

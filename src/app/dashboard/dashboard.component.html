@@ -1,0 +1,95 @@
+<div class="dashboard-wrapper">
+  <h3 class="fw-semibold mb-1">HR Management Dashboard</h3>
+
+  <div class="row g-4 mb-2">
+    <div class="col-12 col-sm-6 col-lg-3">
+    <div class="card shadow-sm p-1">
+      <p class="text-muted mb-1">Total Employees</p>
+      <h2 class="fw-bold display-6">132</h2>
+    </div>
+  </div>
+
+  <div class="col-12 col-sm-6 col-lg-3">
+    <div class="card shadow-sm p-1">
+      <p class="text-muted mb-1">On Leave Today</p>
+      <h2 class="fw-bold display-6">08</h2>
+    </div>
+  </div>
+
+  <div class="col-12 col-sm-6 col-lg-3">
+    <div class="card shadow-sm p-1">
+      <p class="text-muted mb-1">Pending Requests</p>
+      <h2 class="fw-bold display-6">12</h2>
+    </div>
+  </div>
+
+  <div class="col-12 col-sm-6 col-lg-3">
+    <div class="card shadow-sm p-1">
+      <p class="text-muted mb-1">New Joiners</p>
+      <h2 class="fw-bold display-6">04</h2>
+    </div>
+  </div>
+  </div>
+
+  <div class="row g-4 mb-1">
+    <div class="col-12 col-lg-6">
+    <div class="card shadow-sm p-2">
+      <h3 class="fw-semibold mb-1">Stats Summary</h3>
+      <ul class="list-group">
+        <li class="list-group-item">✔ Maria approved a leave request</li>
+        <li class="list-group-item">✔ John updated his profile</li>
+        <li class="list-group-item">✔ New employee added: Alex</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-12 col-lg-6">
+    <div class="card shadow-sm p-1 d-flex justify-content-center align-items-center" style="height: 180px;">
+      <div style="width: 100%; height: 100%;">
+      <canvas id="performanceChart"></canvas>
+    </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="card shadow-sm p-1">
+    <h3 class="fw-semibold mb-1">Employee List</h3>
+
+    <div class="table-wrapper">
+      <table class="table table-hover align-middle">
+        <thead class="table-light">
+      <tr>
+        <th>Name</th>
+        <th>Role</th>
+        <th>Department</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>John Doe</td>
+        <td>Software Engineer</td>
+        <td>IT</td>
+        <td><span class="text-success fw-bold">Active</span></td>
+      </tr>
+
+      <tr>
+        <td>Maria Smith</td>
+        <td>HR Manager</td>
+        <td>HR</td>
+        <td><span class="text-success fw-bold">Active</span></td>
+      </tr>
+
+      <tr>
+        <td>Alex Lee</td>
+        <td>Accountant</td>
+        <td>Finance</td>
+        <td><span class="text-danger fw-bold">Inactive</span></td>
+      </tr>
+    </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+

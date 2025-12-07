@@ -1,0 +1,31 @@
+<div class="layout" [class.sidebar-open]="isMobile && sidebarOpen">
+
+  <!-- Sidebar -->
+  <aside
+    class="sidebar"
+    [class.sidebar-hidden]="isMobile && !sidebarOpen">
+    <app-sidebar></app-sidebar>
+  </aside>
+
+  <div class="main bg-light">
+
+    <header class="topbar">
+      <button
+        class="hamburger"
+        type="button"
+        (click)="toggleSidebar()">
+        <i class="bi bi-list"></i>
+      </button>
+      <app-navbar></app-navbar>
+    </header>
+
+    <main class="content">
+      <app-dashboard></app-dashboard>
+    </main>
+
+    <footer class="footer bg-light">
+      <app-footer></app-footer>
+    </footer>
+
+  </div>
+</div>
